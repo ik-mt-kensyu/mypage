@@ -1,24 +1,32 @@
                     IT総合研修図書館問い合わせフォーム
-<p id="top">
-１．氏名を記載してください
+<form class="" action="index.html" method="post">
+  <p id="top">
+  １．氏名を記載してください
+  <input type="text" name="" value="">
 
-</p>
-<p>
-２．身分をチェックしてください
-　□　教員、□　職員、□　学生
-</p>
-<p>
-３．所属部局を以下から選んでください。
-　・法経学部
-　・医学部
-　・理学部
-　・工学部
-</p>
-４．自由に記述してください。
+  </p>
+  <p>
+  ２．身分をチェックしてください
+   <input type="radio" name="mibun" value="1">教員
+   <input type="radio" name="mibun" value="2">職員
+   <input type="radio" name="mibun" value="3">学生
+  </p>
+  <p>
+  ３．所属部局を以下から選んでください。
+  <select class="bukyoku">
+    <option value="1">法経学部</option>
+    <option value="2">医学部</option>
+    <option value="3">理学部</option>
+    <option value="4">工学部</option>
+  </select>
 
-<p>
-[確定]
-</p>
+  </p>
+  ４．自由に記述してください。
+  <textarea name="free" rows="10" cols="100"></textarea>
+  <p>
+  <input type="button" name="" value="[確定]">
+  </p>
+</form>
 <p>
 <a href="#top">トップへ戻る</a>
 <br>
