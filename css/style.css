@@ -1,3 +1,76 @@
-.body {
-  background-color: #55423d; //�w�i�F
+body {
+  background-color: #55423d;
+  color: #fff3ec;
+  font-family:"UD デジタル 教科書体 N-R", "BIZ UDゴシック Regular", "Hiragino Kaku Gothic ProN", "ascii";
+
+}
+
+#contents {
+  background-color: #55423d;
+  color: #fff3ec;
+  font-family:"UD デジタル 教科書体 N-R", "BIZ UDゴシック Regular", "Hiragino Kaku Gothic ProN", "ascii";
+
+}
+
+h1 {
+  color: #fffffe;
+}
+h2 {
+  color: #fffffe;
+}
+h3 {
+  color: #fffffe;
+}
+h4 {
+  color: #fffffe;
+}
+
+#gnav {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	background-color: #271c19;
+  text-decoration: none;
+  color: #fffffe;
+}
+#gnav ul li {
+	float: left;
+  list-style-type: none;
+}
+#gnav ul li a {
+	display: block;
+	padding: 14px 30px;
+	text-align: center;
+  text-decoration: none;
+  color: #fffffe;
+}
+#gnav ul li a:hover:not(.active) {
+	background-color: #55423d;
+}
+#gnav ul li a.active {
+	background-color: #e78fb3;
+}
+#gnav ul li.right {
+	float: right;
+  margin-right : 50px;
+}
+
+.btn{
+  width: 70px;
+  height: 30px;
+  text-align: center;
+  padding: 10px 30px;
+  background-color: #ffc0ad;
+  display: block;
+  text-decoration: none;
+  color: #271c19;
+}
+
+.accordion-button {
+    color: #271c19;
+    background-color: #fffffe;
+}
+.accordion-button:not(.collapsed) {
+    color: #271c19;
+    background-color: #ffc0ad;
 }
